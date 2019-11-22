@@ -8,27 +8,29 @@
 
 # #Users
 
-User.create(name: "Harry Chopra", username: "harrychopra", password: "123456", age: 29, height: 187, weight: 187, bio: "This is my Bio. It is very interesting")
-User.create(name: "Eliot Howes", username: "eliothowes", password: "123456", age: 28, height: 172, weight: 178, bio: "This is my Bio. It is very interesting")
-User.create(name: "Rod Cardenas", username: "rokujo", password: "123456", age: 31, height: 175, weight: 160, bio: "This is my Bio. It is very interesting")
-User.create(name: "Adnan Azim", username: "adnanazam", password: "123456", age: 28, height: 187, weight: 170, bio: "This is my Bio. It is very interesting")
-User.create(name: "Nick Charlot", username: "whatever", password: "123456", age: 30, height: 180, weight: 180, bio: "This is my Bio. It is very interesting")
+User.create(name: "Demo User", username: "demouser", password: "notsafe", age: 29, height: 187, weight: 187, bio: "This is my Bio. It is very interesting")
 
 # #Days
-
-Day.create(diary_date: "2019/08/1", user_id: 1)
-Day.create(diary_date: "2019/08/2", user_id: 2)
-Day.create(diary_date: "2019/08/3", user_id: 3)
-Day.create(diary_date: "2019/08/4", user_id: 4)
-Day.create(diary_date: "2019/08/5", user_id: 5)
-Day.create(diary_date: "2019/08/6", user_id: 2)
-Day.create(diary_date: "2019/08/7", user_id: 5)
-Day.create(diary_date: "2019/08/8", user_id: 1)
-Day.create(diary_date: "2019/08/9", user_id: 2)
-Day.create(diary_date: "2019/08/10", user_id: 3)
-Day.create(diary_date: "2019/08/11", user_id: 4)
-Day.create(diary_date: "2019/08/12", user_id: 5)
-Day.create(diary_date: "2019/08/13", user_id: 6)
+Day.create(diary_date: "2019/11/1", user_id: 1)
+Day.create(diary_date: "2019/11/2", user_id: 1)
+Day.create(diary_date: "2019/11/3", user_id: 1)
+Day.create(diary_date: "2019/11/4", user_id: 1)
+Day.create(diary_date: "2019/11/5", user_id: 1)
+Day.create(diary_date: "2019/11/6", user_id: 1)
+Day.create(diary_date: "2019/11/7", user_id: 1)
+Day.create(diary_date: "2019/11/8", user_id: 1)
+Day.create(diary_date: "2019/11/9", user_id: 1)
+Day.create(diary_date: "2019/11/10", user_id: 1)
+Day.create(diary_date: "2019/11/11", user_id: 1)
+Day.create(diary_date: "2019/11/12", user_id: 1)
+Day.create(diary_date: "2019/11/14", user_id: 1)
+Day.create(diary_date: "2019/11/15", user_id: 1)
+Day.create(diary_date: "2019/11/16", user_id: 1)
+Day.create(diary_date: "2019/11/17", user_id: 1)
+Day.create(diary_date: "2019/11/18", user_id: 1)
+Day.create(diary_date: "2019/11/19", user_id: 1)
+Day.create(diary_date: "2019/11/20", user_id: 1)
+Day.create(diary_date: "2019/11/21", user_id: 1)
 
 # Exercises
 
@@ -54,23 +56,6 @@ SedentaryActivity.create(name: "Commenting/ Disliking selfies on Instagram", dur
 SedentaryActivity.create(name: "Laying in bed all day but thinking about exercising", duration: 600, start_time: "2019/08/2 01:00:00", calories: 1)
 SedentaryActivity.create(name: "Watching TV", duration: 600, start_time: "2019/08/2 01:00:00", calories: 1)
 
-# Day Exercise
-
-DayExercise.create(day_id: 1, exercise_id: 1)
-DayExercise.create(day_id: 2, exercise_id: 2)
-DayExercise.create(day_id: 3, exercise_id: 3)
-DayExercise.create(day_id: 4, exercise_id: 4)
-DayExercise.create(day_id: 5, exercise_id: 5)
-DayExercise.create(day_id: 6, exercise_id: 6)
-
-# Day Sedentary Activities
-
-DaySedentaryActivity.create(day_id: 7, sedentary_activity_id: 1)
-DaySedentaryActivity.create(day_id: 8, sedentary_activity_id: 2)
-DaySedentaryActivity.create(day_id: 9, sedentary_activity_id: 3)
-DaySedentaryActivity.create(day_id: 10, sedentary_activity_id: 4)
-DaySedentaryActivity.create(day_id: 11, sedentary_activity_id: 5)
-
 # Meals
 
 Meal.create(name: "Chicken and Avocado Sandwich", total_calories: 912, total_protein: 68, total_fat: 28, total_carbs: 91)
@@ -83,15 +68,6 @@ Meal.create(name: "Pizza Margarita", total_calories: 394, total_protein: 26, tot
 Meal.create(name: "Carrabbas - Lasagna", total_calories: 780, total_protein: 45, total_fat: 47, total_carbs: 47)
 Meal.create(name: "Nando's - Chips", total_calories: 414, total_protein: 5, total_fat: 17, total_carbs: 59)
 Meal.create(name: "Fish and Chips", total_calories: 838, total_protein: 45, total_fat: 20, total_carbs: 94)
-
-
-# Day Meal
-DayMeal.create(day_id: 1, meal_id: 1)
-DayMeal.create(day_id: 2, meal_id: 2)
-DayMeal.create(day_id: 3, meal_id: 3)
-DayMeal.create(day_id: 4, meal_id: 4)
-DayMeal.create(day_id: 5, meal_id: 5)
-DayMeal.create(day_id: 6, meal_id: 6)
 
 # Ingredients
 
@@ -113,7 +89,6 @@ MealIngredient.create(meal_id: 2, ingredient_id: 5)
 MealIngredient.create(meal_id: 2, ingredient_id: 6)
 MealIngredient.create(meal_id: 2, ingredient_id: 7)
 
-
 # Snacks
 
 Snack.create(name: "Mars Bar", calories: 84, protein: 1, fat: 3, carbs: 13)
@@ -129,12 +104,3 @@ Snack.create(name: "Monster Munch", calories: 109, protein: 1, fat: 6, carbs: 13
 Snack.create(name: "Quavers", calories: 107, protein: 1, fat: 6, carbs: 12)
 Snack.create(name: "Harribo Starmix", calories: 860, protein: 0, fat: 0, carbs: 32)
 Snack.create(name: "Maoam", calories: 394, protein: 1, fat: 6, carbs: 84)
-
-# Day Snack
-
-DaySnack.create(day_id: 1, snack_id: 1)
-DaySnack.create(day_id: 2, snack_id: 2)
-DaySnack.create(day_id: 3, snack_id: 3)
-DaySnack.create(day_id: 4, snack_id: 4)
-DaySnack.create(day_id: 5, snack_id: 5)
-DaySnack.create(day_id: 6, snack_id: 6)
