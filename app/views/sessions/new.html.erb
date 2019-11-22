@@ -1,7 +1,7 @@
 <div class="form-aligned">
     <h2>Slouchr</h2>
-    <br>
-        <div class="form-padding border" role="form">
+    <br />
+    <div class="form-padding border" role="form">
         <div class="form-group">
             <%= form_tag sessions_path do %>
             <%= label :user, :username %>
@@ -22,6 +22,10 @@
                     <%= button_to "Sign up", new_user_path, :method => :get %>
                 </div>
         </div>
+    </div>
+    <br />
+    <div class="alert alert-primary" role="alert">
+        <b>Username</b>: <i>demouser</i> <b>Password</b>: <i>notsafe</i>
     </div>
 </div>
 
