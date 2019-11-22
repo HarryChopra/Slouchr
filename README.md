@@ -6,11 +6,11 @@ A satirical health app that rewards you for being lazy and eating all the junk f
 
 ## Try out and Demo
 
-### Live
-[Access the Live application](https://slouchr.herokuapp.com/)
+### Screenshots
+[Access the live application](https://slouchr.herokuapp.com/)
 
 ### Screenshots
-[Screenshots of Slouchr Application](https://media.giphy.com/media/kemcU5tVYp0djMS2k9/giphy.gif)
+![Screenshots of Slouchr Application](https://media.giphy.com/media/kemcU5tVYp0djMS2k9/giphy.gif)
 
 ### Watch a demo
 <a href="https://youtu.be/USJUt4Mru24" target="_blank">Click to Watch Demo</a>
